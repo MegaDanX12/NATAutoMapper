@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Settings>
-  <BasicSettings>
-    <RetrySyncing>False</RetrySyncing>
-    <SyncingRetries>0</SyncingRetries>
-    <SyncingWaitTime>10</SyncingWaitTime>
-    <RestartRetries>1</RestartRetries>
-  </BasicSettings>
-</Settings>
