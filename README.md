@@ -9,7 +9,7 @@ With this program you can:
 3) close ports
 4) list the currently open ports (only opened with Upnp)
 
-Command line arguments and scripts are supported
+Command line arguments and scripts are supported.
 
 The supported commands are the following (must be first in the command line):
 
