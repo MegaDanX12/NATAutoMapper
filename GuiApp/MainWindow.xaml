@@ -1,0 +1,17 @@
+﻿<Window x:Class="GuiApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:r="clr-namespace:GuiApp.ResourceFiles"
+        mc:Ignorable="d"
+        Title="{x:Static r:Resources.MainWindowTitle}" Height="450" Width="800" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Menu VerticalAlignment="Top" Height="25">
+            <MenuItem Header="{x:Static r:Resources.MainWindowMenuScriptItem}"/>
+            <MenuItem Header="{x:Static r:Resources.MainWindowMenuOpenPortsItem}"/>
+            <MenuItem Header="{x:Static r:Resources.MainWindowMenuSettingsItem}"/>
+        </Menu>
+        <GroupBox Header="GroupBox" VerticalAlignment="Top" Margin="10,30,10,0"/>
+    </Grid>
+</Window>

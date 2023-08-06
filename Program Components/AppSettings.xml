@@ -1,0 +1,9 @@
+<AppSettings>
+  <NatDiscovery>
+    <Timeout>5000</Timeout>
+    <SelectFirstDeviceFound>False</SelectFirstDeviceFound>
+  </NatDiscovery>
+  <Scripting>
+    <EnableScripting>True</EnableScripting>
+  </Scripting>
+</AppSettings>

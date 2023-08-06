@@ -1,0 +1,1063 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProtocolTypeLabel.Text" xml:space="preserve">
+    <value>Nessuna selezione</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;ToolSettingsSubMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeNumericUpDown.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProtocolLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClosePortIpAddressLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ProtocolLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="&gt;&gt;AppSettingsSubMenuItem.Name" xml:space="preserve">
+    <value>AppSettingsSubMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel1.Name" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SinglePortOpenGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClosePortIpAddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RuleDescriptionLabel.Text" xml:space="preserve">
+    <value>Descrizione regola</value>
+  </data>
+  <data name="PrivatePortLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;ProtocolTypeLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ClosePortSplitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 114</value>
+  </data>
+  <data name="&gt;&gt;ProtocolTypeLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;IpAddressTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GenerateScriptSubMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="OpenPortsMenuItem.Text" xml:space="preserve">
+    <value>Apri porte</value>
+  </data>
+  <data name="IpAddressValueLabel.Text" xml:space="preserve">
+    <value>Nessuna selezione</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ClosePortProtocolLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IpAddressLabel.Text" xml:space="preserve">
+    <value>Indirizzo IP dispositivo</value>
+  </data>
+  <data name="&gt;&gt;ToolSettingsSubMenuItem.Name" xml:space="preserve">
+    <value>ToolSettingsSubMenuItem</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="ProtocolComboBox.Items2" xml:space="preserve">
+    <value>Entrambi</value>
+  </data>
+  <data name="ProtocolLabel.Text" xml:space="preserve">
+    <value>Protocollo</value>
+  </data>
+  <data name="SettingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="&gt;&gt;OpenPortsMenuItem.Name" xml:space="preserve">
+    <value>OpenPortsMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ProtocolLabel.Name" xml:space="preserve">
+    <value>ProtocolLabel</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PublicPortLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 16</value>
+  </data>
+  <data name="OtherOperationsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;OtherOperationsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RemainingLifetimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ScriptMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="ClosePortExternalPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 50</value>
+  </data>
+  <data name="&gt;&gt;ExternalPortValueLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RuleDescriptionTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IpAddressValueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 16</value>
+  </data>
+  <data name="&gt;&gt;IpAddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Strumento per mappatura porte NAT</value>
+  </data>
+  <data name="RuleLifetimeNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 33</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ClosePortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionTextBox.Name" xml:space="preserve">
+    <value>RuleDescriptionTextBox</value>
+  </data>
+  <data name="&gt;&gt;IpAddressTextBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="RemainingLifetimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ScriptMenuItem.Text" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="RuleLifetimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PublicPortLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="UseDeviceIPCheckBox.Text" xml:space="preserve">
+    <value>Usa indirizzo
+del computer locale</value>
+  </data>
+  <data name="&gt;&gt;ClosePortGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PublicPortTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClosePortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="&gt;&gt;AppMainMenuStrip.Name" xml:space="preserve">
+    <value>AppMainMenuStrip</value>
+  </data>
+  <data name="RuleLifetimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ClosePortSplitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenPortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ProtocolLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IpAddressValueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UseDeviceIPCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="ClosePortSplitContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ClosePortSplitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="IpAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;IpAddressTextBox.Name" xml:space="preserve">
+    <value>IpAddressTextBox</value>
+  </data>
+  <data name="&gt;&gt;UseDeviceIPCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RemainingLifetimeValueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ExternalPortValueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ProtocolComboBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="IpAddressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 32</value>
+  </data>
+  <data name="&gt;&gt;PublicPortLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExternalPortValueLabel.Name" xml:space="preserve">
+    <value>ExternalPortValueLabel</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RuleDescriptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="PublicPortTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 32</value>
+  </data>
+  <data name="InternalPortValueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="ClosePortIpAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="RuleDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 60</value>
+  </data>
+  <data name="RunScriptSubMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="RunScriptSubMenuItem.Text" xml:space="preserve">
+    <value>Esegui script</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProtocolTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PrivatePortLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 16</value>
+  </data>
+  <data name="&gt;&gt;OtherOperationsLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ClosePortExternalPort.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;CurrentRulesListBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PublicPortTextBox.Name" xml:space="preserve">
+    <value>PublicPortTextBox</value>
+  </data>
+  <data name="OtherOperationsLabel.Text" xml:space="preserve">
+    <value>Per altre operazioni usare le voci di menù</value>
+  </data>
+  <data name="&gt;&gt;ExternalPortValueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClosePortInternalPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OpenPortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="ClosePortGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeValueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InternalPortValueLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="AppSettingsSubMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="IpAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 16</value>
+  </data>
+  <data name="ClosePortSplitContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ScriptMenuItem.Name" xml:space="preserve">
+    <value>ScriptMenuItem</value>
+  </data>
+  <data name="PrivatePortLabel.Text" xml:space="preserve">
+    <value>Porta interna</value>
+  </data>
+  <data name="SettingsMenuItem.Text" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="ProtocolComboBox.Items" xml:space="preserve">
+    <value>TCP</value>
+  </data>
+  <data name="PublicPortTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel2.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;UseDeviceIPCheckBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ClosePortIpAddressLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RemainingLifetimeLabel.Text" xml:space="preserve">
+    <value>Tempo rimanente</value>
+  </data>
+  <data name="&gt;&gt;ProtocolComboBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ProtocolComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="PublicPortTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ClosePortGroupBox.Name" xml:space="preserve">
+    <value>ClosePortGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ClosePortInternalPort.Name" xml:space="preserve">
+    <value>ClosePortInternalPort</value>
+  </data>
+  <data name="ClosePortButton.Text" xml:space="preserve">
+    <value>Chiudi porta/e</value>
+  </data>
+  <data name="&gt;&gt;IpAddressValueLabel.Name" xml:space="preserve">
+    <value>IpAddressValueLabel</value>
+  </data>
+  <data name="ClosePortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 297</value>
+  </data>
+  <data name="&gt;&gt;ClosePortInternalPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateScriptSubMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClosePortProtocolLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="&gt;&gt;OpenPortButton.Name" xml:space="preserve">
+    <value>OpenPortButton</value>
+  </data>
+  <data name="ClosePortProtocolLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Name" xml:space="preserve">
+    <value>ClosePortSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Parent" xml:space="preserve">
+    <value>ClosePortGroupBox</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeLabel.Name" xml:space="preserve">
+    <value>RemainingLifetimeLabel</value>
+  </data>
+  <data name="ClosePortGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 161</value>
+  </data>
+  <data name="RuleDescriptionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 52</value>
+  </data>
+  <data name="&gt;&gt;AppMainMenuStrip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="OtherOperationsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 24</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeValueLabel.Name" xml:space="preserve">
+    <value>RemainingLifetimeValueLabel</value>
+  </data>
+  <data name="&gt;&gt;OpenPortButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RuleLifetimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 17</value>
+  </data>
+  <data name="RuleLifetimeNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ClosePortExternalPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel2.Name" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="AppMainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ClosePortExternalPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="ClosePortExternalPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClosePortExternalPort.Text" xml:space="preserve">
+    <value>Porta esterna</value>
+  </data>
+  <data name="&gt;&gt;OpenPortButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ClosePortButton.Name" xml:space="preserve">
+    <value>ClosePortButton</value>
+  </data>
+  <data name="&gt;&gt;ProtocolComboBox.Name" xml:space="preserve">
+    <value>ProtocolComboBox</value>
+  </data>
+  <data name="&gt;&gt;ClosePortGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ProtocolComboBox.Items1" xml:space="preserve">
+    <value>UDP</value>
+  </data>
+  <data name="&gt;&gt;OpenPortsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortLabel.Name" xml:space="preserve">
+    <value>PrivatePortLabel</value>
+  </data>
+  <data name="&gt;&gt;SinglePortOpenGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ProtocolLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="UseDeviceIPCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="&gt;&gt;GenerateScriptSubMenuItem.Name" xml:space="preserve">
+    <value>GenerateScriptSubMenuItem</value>
+  </data>
+  <data name="ToolSettingsSubMenuItem.Text" xml:space="preserve">
+    <value>Impostazioni dello strumento</value>
+  </data>
+  <data name="&gt;&gt;SinglePortOpenGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GenerateScriptSubMenuItem.Text" xml:space="preserve">
+    <value>Genera script</value>
+  </data>
+  <data name="UseDeviceIPCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;OtherOperationsLabel.Name" xml:space="preserve">
+    <value>OtherOperationsLabel</value>
+  </data>
+  <data name="ProtocolTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="OpenKnownPortSubMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="RemainingLifetimeValueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="ClosePortInternalPort.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PublicPortTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RunScriptSubMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SinglePortOpenGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ClosePortInternalPort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ClosePortProtocolLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProtocolTypeLabel.Name" xml:space="preserve">
+    <value>ProtocolTypeLabel</value>
+  </data>
+  <data name="UseDeviceIPCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 27</value>
+  </data>
+  <data name="PrivatePortTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 32</value>
+  </data>
+  <data name="PrivatePortLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ClosePortIpAddressLabel.Name" xml:space="preserve">
+    <value>ClosePortIpAddressLabel</value>
+  </data>
+  <data name="ClosePortGroupBox.Text" xml:space="preserve">
+    <value>Chiusura porta/e</value>
+  </data>
+  <data name="RuleLifetimeLabel.Text" xml:space="preserve">
+    <value>Durata regola (secondi)</value>
+  </data>
+  <data name="OpenPortsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="&gt;&gt;ExternalPortValueLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel1.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeLabel.Name" xml:space="preserve">
+    <value>RuleLifetimeLabel</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PublicPortLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ClosePortIpAddressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PrivatePortTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeNumericUpDown.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ExternalPortValueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionTextBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="ProtocolTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PublicPortLabel.Text" xml:space="preserve">
+    <value>Porta esterna</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CurrentRulesListBox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NatAutoMapperGUIForm</value>
+  </data>
+  <data name="&gt;&gt;ClosePortExternalPort.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ClosePortExternalPort.Name" xml:space="preserve">
+    <value>ClosePortExternalPort</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="SinglePortOpenGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 134</value>
+  </data>
+  <data name="RuleDescriptionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="InternalPortValueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;InternalPortValueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IpAddressValueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PublicPortLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;InternalPortValueLabel.Name" xml:space="preserve">
+    <value>InternalPortValueLabel</value>
+  </data>
+  <data name="&gt;&gt;InternalPortValueLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClosePortProtocolLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IpAddressTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="OtherOperationsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="InternalPortValueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 50</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenuItem.Name" xml:space="preserve">
+    <value>SettingsMenuItem</value>
+  </data>
+  <data name="ToolSettingsSubMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="ClosePortExternalPort.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ProtocolTypeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="InternalPortValueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="PrivatePortLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;IpAddressLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="ProtocolLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PrivatePortTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ProtocolComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PublicPortTextBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeNumericUpDown.Name" xml:space="preserve">
+    <value>RuleLifetimeNumericUpDown</value>
+  </data>
+  <data name="SinglePortOpenGroupBox.Text" xml:space="preserve">
+    <value>Apertura porta singola</value>
+  </data>
+  <data name="&gt;&gt;OtherOperationsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RuleDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="RemainingLifetimeValueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 85</value>
+  </data>
+  <data name="&gt;&gt;ClosePortInternalPort.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="IpAddressValueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="RemainingLifetimeValueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IpAddressValueLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeValueLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="IpAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="InternalPortValueLabel.Text" xml:space="preserve">
+    <value>Nessuna selezione</value>
+  </data>
+  <data name="ExternalPortValueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="ClosePortInternalPort.Text" xml:space="preserve">
+    <value>Porta interna</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortTextBox.Name" xml:space="preserve">
+    <value>PrivatePortTextBox</value>
+  </data>
+  <data name="ProtocolTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="&gt;&gt;ScriptMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IpAddressValueLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RunScriptSubMenuItem.Name" xml:space="preserve">
+    <value>RunScriptSubMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AppMainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CurrentRulesListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="&gt;&gt;ClosePortProtocolLabel.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OpenPortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RuleLifetimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="&gt;&gt;IpAddressTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ClosePortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RuleLifetimeNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="SinglePortOpenGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="OpenPortButton.Text" xml:space="preserve">
+    <value>Apri porta</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortTextBox.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ClosePortProtocolLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CurrentRulesListBox.Name" xml:space="preserve">
+    <value>CurrentRulesListBox</value>
+  </data>
+  <data name="&gt;&gt;PrivatePortLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ProtocolComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AppSettingsSubMenuItem.Text" xml:space="preserve">
+    <value>Impostazioni del programma</value>
+  </data>
+  <data name="CurrentRulesListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 108</value>
+  </data>
+  <data name="RemainingLifetimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="&gt;&gt;OpenKnownPortSubMenuItem.Name" xml:space="preserve">
+    <value>OpenKnownPortSubMenuItem</value>
+  </data>
+  <data name="ClosePortIpAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ExternalPortValueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 50</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OpenKnownPortSubMenuItem.Text" xml:space="preserve">
+    <value>Apri porta nota</value>
+  </data>
+  <data name="ClosePortIpAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 336</value>
+  </data>
+  <data name="&gt;&gt;RemainingLifetimeValueLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClosePortInternalPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="ProtocolComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="&gt;&gt;SinglePortOpenGroupBox.Name" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ProtocolLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="UseDeviceIPCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AppMainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClosePortProtocolLabel.Text" xml:space="preserve">
+    <value>Protocollo</value>
+  </data>
+  <data name="&gt;&gt;ClosePortGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ExternalPortValueLabel.Text" xml:space="preserve">
+    <value>Nessuna selezione</value>
+  </data>
+  <data name="OpenPortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 297</value>
+  </data>
+  <data name="&gt;&gt;PublicPortLabel.Name" xml:space="preserve">
+    <value>PublicPortLabel</value>
+  </data>
+  <data name="OtherOperationsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;OpenKnownPortSubMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CurrentRulesListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CurrentRulesListBox.Parent" xml:space="preserve">
+    <value>ClosePortSplitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClosePortInternalPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 50</value>
+  </data>
+  <data name="&gt;&gt;PublicPortLabel.Parent" xml:space="preserve">
+    <value>SinglePortOpenGroupBox</value>
+  </data>
+  <data name="RemainingLifetimeValueLabel.Text" xml:space="preserve">
+    <value>Nessuna selezione</value>
+  </data>
+  <data name="AppMainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <data name="&gt;&gt;ClosePortButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ClosePortIpAddressLabel.Text" xml:space="preserve">
+    <value>Indirizzo IP</value>
+  </data>
+  <data name="&gt;&gt;ClosePortSplitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RuleDescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AppSettingsSubMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IpAddressLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CurrentRulesListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IpAddressLabel.Name" xml:space="preserve">
+    <value>IpAddressLabel</value>
+  </data>
+  <data name="&gt;&gt;RuleDescriptionLabel.Name" xml:space="preserve">
+    <value>RuleDescriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;AppMainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RuleLifetimeLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="IpAddressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PublicPortLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RemainingLifetimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 85</value>
+  </data>
+  <data name="&gt;&gt;UseDeviceIPCheckBox.Name" xml:space="preserve">
+    <value>UseDeviceIPCheckBox</value>
+  </data>
+  <data name="IpAddressTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="&gt;&gt;IpAddressValueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OtherOperationsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 297</value>
+  </data>
+  <data name="ClosePortGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 133</value>
+  </data>
+  <data name="&gt;&gt;ClosePortProtocolLabel.Name" xml:space="preserve">
+    <value>ClosePortProtocolLabel</value>
+  </data>
+  <data name="ProtocolLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="&gt;&gt;ClosePortButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RuleDescriptionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <metadata name="AppMainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

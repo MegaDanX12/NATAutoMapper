@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyExistingError" xml:space="preserve">
+    <value>Regola già esistente.</value>
+  </data>
+  <data name="ArgumentExceptionKnownServiceInexistentText" xml:space="preserve">
+    <value>Il servizio indicato non esiste.</value>
+  </data>
+  <data name="ArgumentExceptionKnownServiceInvalidPort" xml:space="preserve">
+    <value>La porta privata o la porta pubblica fornite non sono valide.</value>
+  </data>
+  <data name="ArgumentNullExceptionKnownServiceNameText" xml:space="preserve">
+    <value>Il nome del servizio non può essere nullo o una stringa vuota.</value>
+  </data>
+  <data name="ArgumentNullExceptionKnownServiceNullAddressText" xml:space="preserve">
+    <value>L'indirizzo IP non può essere nullo.</value>
+  </data>
+  <data name="ClosePortConfirmation" xml:space="preserve">
+    <value>Confermare eliminazione (S/N)? </value>
+  </data>
+  <data name="ClosePortError" xml:space="preserve">
+    <value>Errore durante l'eliminazione delle regole, codice di errore </value>
+  </data>
+  <data name="ClosePortNoOptionSelected" xml:space="preserve">
+    <value>Non è stata scelta nessuna opzione oppure l'opzione scelta non è valida, nessuna operazione eseguita.</value>
+  </data>
+  <data name="ClosePortNoOtherRuleFound" xml:space="preserve">
+    <value>Non è stata trovata nessun'altra regola con la descrizione fornita.</value>
+  </data>
+  <data name="ClosePortNoRuleFound" xml:space="preserve">
+    <value>Non è stata trovata nessuna regola con la descrizione fornita.</value>
+  </data>
+  <data name="ClosePortRuleDeleted" xml:space="preserve">
+    <value>Regola eliminata.</value>
+  </data>
+  <data name="ClosePortRuleDescription" xml:space="preserve">
+    <value>Descrizione della regola da eliminare: </value>
+  </data>
+  <data name="CreationError" xml:space="preserve">
+    <value>Errore durante la creazione della regola.</value>
+  </data>
+  <data name="CurrentSettings" xml:space="preserve">
+    <value>Impostazioni correnti del programma</value>
+  </data>
+  <data name="DeletionError" xml:space="preserve">
+    <value>Errore durante l'eliminazione della regola.</value>
+  </data>
+  <data name="DeviceDiscovery" xml:space="preserve">
+    <value>Ricerca dispositivi NAT con supporto UPnP...</value>
+  </data>
+  <data name="DeviceFound" xml:space="preserve">
+    <value>Trovato 1 dispositivo.</value>
+  </data>
+  <data name="DevicesFound1" xml:space="preserve">
+    <value>Trovati </value>
+  </data>
+  <data name="DevicesFound2" xml:space="preserve">
+    <value> dispositivi.</value>
+  </data>
+  <data name="DirectoryNotFoundExceptionText" xml:space="preserve">
+    <value>Il percorso indicato non si riferisce a nessuna directory esistente.</value>
+  </data>
+  <data name="DiscoveryTimeSettingEdit" xml:space="preserve">
+    <value>Inserire tempo di ricerca dispositivi (lasciare vuoto o 0 per default): </value>
+  </data>
+  <data name="EnumerationError" xml:space="preserve">
+    <value>Errore durante l'enumerazione delle regole di port mapping.</value>
+  </data>
+  <data name="EnumerationErrorDetailedText" xml:space="preserve">
+    <value>Errore durante l'enumerazione delle regole, codice di errore </value>
+  </data>
+  <data name="FileNotFoundExceptionText" xml:space="preserve">
+    <value>File non trovato.</value>
+  </data>
+  <data name="FirstDeviceFoundSelected" xml:space="preserve">
+    <value>E' stato selezionato il primo dispositivo trovato.</value>
+  </data>
+  <data name="FirstDeviceSelectionSettingDisabled" xml:space="preserve">
+    <value>Scelta del primo dispositivo trovato disattivata.</value>
+  </data>
+  <data name="FirstDeviceSelectionSettingEnabled" xml:space="preserve">
+    <value>Scelta del primo dispositivo trovato attivata.</value>
+  </data>
+  <data name="InsufficientArgumentsError" xml:space="preserve">
+    <value>Parametri forniti insufficienti.</value>
+  </data>
+  <data name="InvalidArgumentsError" xml:space="preserve">
+    <value>Rilevati parametri non validi.</value>
+  </data>
+  <data name="InvalidDeviceSelection" xml:space="preserve">
+    <value>Seleziona non valida, selezionare un'altro dispositivo: </value>
+  </data>
+  <data name="InvalidLifetimeError" xml:space="preserve">
+    <value>Tempo di validità non valido.</value>
+  </data>
+  <data name="InvalidOperationSelection" xml:space="preserve">
+    <value>Selezione non valida.</value>
+  </data>
+  <data name="InvalidPrivatePortError" xml:space="preserve">
+    <value>Porta privata non valida.</value>
+  </data>
+  <data name="InvalidProtocolError" xml:space="preserve">
+    <value>Protocollo non valido.</value>
+  </data>
+  <data name="InvalidPublicPortError" xml:space="preserve">
+    <value>Porta pubblica non valida.</value>
+  </data>
+  <data name="InvalidScript" xml:space="preserve">
+    <value>Script non valido.</value>
+  </data>
+  <data name="IOExceptionDetailedText" xml:space="preserve">
+    <value>Errore I/O: </value>
+  </data>
+  <data name="MainMenuCommand0" xml:space="preserve">
+    <value>0) Esci dal programma</value>
+  </data>
+  <data name="MainMenuCommand1" xml:space="preserve">
+    <value>1) Visualizza attuale mappatura porte</value>
+  </data>
+  <data name="MainMenuCommand2" xml:space="preserve">
+    <value>2) Apri porta</value>
+  </data>
+  <data name="MainMenuCommand3" xml:space="preserve">
+    <value>3) Apri porta (regole predefinita)</value>
+  </data>
+  <data name="MainMenuCommand4" xml:space="preserve">
+    <value>4) Chiudi porta</value>
+  </data>
+  <data name="MainMenuCommand5" xml:space="preserve">
+    <value>5) Pulisci finestra</value>
+  </data>
+  <data name="MainMenuCommand6" xml:space="preserve">
+    <value>6) Cambia impostazioni</value>
+  </data>
+  <data name="MainMenuSelection" xml:space="preserve">
+    <value>Selezionare l'operazione da eseguire:</value>
+  </data>
+  <data name="NetworkInformationExceptionDetailedText1" xml:space="preserve">
+    <value>Errore durante l'enumerazione delle interfacce di rete: </value>
+  </data>
+  <data name="NetworkInformationExceptionDetailedText2" xml:space="preserve">
+    <value>, codice di errore nativo: </value>
+  </data>
+  <data name="NetworkInformationExceptionText" xml:space="preserve">
+    <value>Errore durante il recupero dell'indirizzo IP locale.</value>
+  </data>
+  <data name="NoDeviceFound" xml:space="preserve">
+    <value>Nessun dispositivo trovato.</value>
+  </data>
+  <data name="NoneOrInvalidParameters" xml:space="preserve">
+    <value>Non sono stati forniti i parametri necessari oppure non sono validi.</value>
+  </data>
+  <data name="NoOperationSelected" xml:space="preserve">
+    <value>Nessuna operazione selezionata, nessuna modifica effettuata.</value>
+  </data>
+  <data name="NoOtherRuleFound" xml:space="preserve">
+    <value>Nessun'altra regola trovata.</value>
+  </data>
+  <data name="NoPortMappingFound" xml:space="preserve">
+    <value>Nessuna regola di port mapping impostata.</value>
+  </data>
+  <data name="NoRuleFound" xml:space="preserve">
+    <value>Nessun regola trovata.</value>
+  </data>
+  <data name="NotLocalIPError" xml:space="preserve">
+    <value>L'indirizzo IP non è un indirizzo locale, non è in un formato corretto oppure c'è stato un errore nel recuperare l'indirizzo locale.</value>
+  </data>
+  <data name="NotLocalIPErrorOpenPort" xml:space="preserve">
+    <value>Si possono soltanto indicare indirizzi IP locali.</value>
+  </data>
+  <data name="NotSupportedExceptionDetailedText" xml:space="preserve">
+    <value>Operazione non supportata: </value>
+  </data>
+  <data name="OpenKnownPortInvalidResponse" xml:space="preserve">
+    <value>Risponsta non valida.</value>
+  </data>
+  <data name="OpenKnownPortListingFilter" xml:space="preserve">
+    <value>Inserire un filtro per l'enumerazione delle regole note, il filtro può essere un protocollo (TCP o UDP), un numero di porta oppure una parola: </value>
+  </data>
+  <data name="OpenKnownPortListingFiltered" xml:space="preserve">
+    <value>Lista filtrata regole note (in gruppi di 10, premere Invio per continuare, Esc per terminare, r per reinserire il filtro):</value>
+  </data>
+  <data name="OpenKnownPortListingFilteredNoRule" xml:space="preserve">
+    <value>Nessuna regola trovata.</value>
+  </data>
+  <data name="OpenKnownPortListingNoFilter" xml:space="preserve">
+    <value>Lista completa regole note (in gruppi di 10, premere Invio per continuare, Esc per terminare, r per inserire un filtro):</value>
+  </data>
+  <data name="OpenKnownPortNoRuleSelected" xml:space="preserve">
+    <value>Nessuna regola selezionata.</value>
+  </data>
+  <data name="OpenKnownPortNumber" xml:space="preserve">
+    <value>Inserire il numero di porta: </value>
+  </data>
+  <data name="OpenKnownPortRuleDescription" xml:space="preserve">
+    <value>Descrizione della regola (lasciare vuoto per utilizzare il nome del servizio): </value>
+  </data>
+  <data name="OpenKnownPortRuleLifetime" xml:space="preserve">
+    <value>Durata della regola (0 o lasciare vuoto per renderla permanente): </value>
+  </data>
+  <data name="OpenKnownPortRuleName" xml:space="preserve">
+    <value>Nome della regola da inserire (LIST per elencarle): </value>
+  </data>
+  <data name="OpenKnownPortUseStandardExternalPort" xml:space="preserve">
+    <value>Usare il numero di porta standard per la porta pubblica? (NB: la porta potrebbe essere bloccata dal tuo ISP) (y/n): </value>
+  </data>
+  <data name="OpenKnownPortUseStandardInternalPort" xml:space="preserve">
+    <value>Usare il numero di porta standard per la porta privata (y/n)?</value>
+  </data>
+  <data name="OpenPortError" xml:space="preserve">
+    <value>Errore durante la creazione della regola, codice di errore </value>
+  </data>
+  <data name="OpenPortFormatExceptionErrorText" xml:space="preserve">
+    <value>Indirizzo indicato non valido.</value>
+  </data>
+  <data name="OpenPortInvalidLifetime" xml:space="preserve">
+    <value>Valore non valido, non può essere minore di 0.</value>
+  </data>
+  <data name="OpenPortInvalidPort" xml:space="preserve">
+    <value>Valore non valido, i valori possibili vanno da 1 a 65535.</value>
+  </data>
+  <data name="OpenPortIPAddress" xml:space="preserve">
+    <value>Indirizzo IP dispositivo (Local per questo computer): </value>
+  </data>
+  <data name="OpenPortLifetime" xml:space="preserve">
+    <value>Validità (in secondi, 0 per infinito): </value>
+  </data>
+  <data name="OpenPortLifetimeNaN" xml:space="preserve">
+    <value>Valore non valido.</value>
+  </data>
+  <data name="OpenPortOpening" xml:space="preserve">
+    <value>Apertura porta...</value>
+  </data>
+  <data name="OpenPortOpeningComplete1" xml:space="preserve">
+    <value>Aperta porta </value>
+  </data>
+  <data name="OpenPortOpeningComplete2" xml:space="preserve">
+    <value> sul router.</value>
+  </data>
+  <data name="OpenPortProtocolInvalid" xml:space="preserve">
+    <value>Protocollo indicato non valido.</value>
+  </data>
+  <data name="OpenPortProtocolSelection" xml:space="preserve">
+    <value>Protocollo (TCP, UDP oppure Both): </value>
+  </data>
+  <data name="OpenPortRangeAlreadyExistsBothProtocols" xml:space="preserve">
+    <value>Esistono sia una regolca TCP che una regola UDP per una delle porte indicate.</value>
+  </data>
+  <data name="OpenPortRangeAlreadyExistsTCP" xml:space="preserve">
+    <value>Una regola TCP per una delle porte esiste già, saranno create soltanto le regole UDP.</value>
+  </data>
+  <data name="OpenPortRangeAlreadyExistsUDP" xml:space="preserve">
+    <value>Una regola UDP per una delle porte esiste già saranno create soltanto le regole TCP.</value>
+  </data>
+  <data name="OpenPortRangeExternalAlreadyOpen" xml:space="preserve">
+    <value>Una delle porte esterne appartenenti al raggio è già aperta.</value>
+  </data>
+  <data name="OpenPortRangeExternalEndingPort" xml:space="preserve">
+    <value>Porta esterna finale: </value>
+  </data>
+  <data name="OpenPortRangeExternalStartingPort" xml:space="preserve">
+    <value>Porta esterna iniziale: </value>
+  </data>
+  <data name="OpenPortRangeInternalAlreadyOpen" xml:space="preserve">
+    <value>Una delle porte interne appartenenti al raggio è già aperta.</value>
+  </data>
+  <data name="OpenPortRangeInternalEndingPort" xml:space="preserve">
+    <value>Porta interna finale: </value>
+  </data>
+  <data name="OpenPortRangeInternalStartingPort" xml:space="preserve">
+    <value>Porta interna iniziale: </value>
+  </data>
+  <data name="OpenPortRangeOpened1" xml:space="preserve">
+    <value>Aperto raggio di porte da </value>
+  </data>
+  <data name="OpenPortRangeOpened2" xml:space="preserve">
+    <value> a </value>
+  </data>
+  <data name="OpenPortRangeOpened3" xml:space="preserve">
+    <value> sul router.</value>
+  </data>
+  <data name="OpenPortRangeOpening" xml:space="preserve">
+    <value>Apertura porte...</value>
+  </data>
+  <data name="OpenPortRuleAlreadyExists" xml:space="preserve">
+    <value>Esiste già una regola con i dati forniti.</value>
+  </data>
+  <data name="OpenPortRuleAlreadyExistsBothProtocols" xml:space="preserve">
+    <value>Esistono sia una regola TCP che una regola UDP con i dati forniti.</value>
+  </data>
+  <data name="OpenPortRuleAlreadyExistsTCP" xml:space="preserve">
+    <value>Una regola TCP con i dati forniti esiste già, sarà creata soltanto una regola UDP.</value>
+  </data>
+  <data name="OpenPortRuleAlreadyExistsUDP" xml:space="preserve">
+    <value>Una regola UDP con i dati forniti esiste già, sarà creata soltanto una regola TCP.</value>
+  </data>
+  <data name="OpenPortRuleLookup" xml:space="preserve">
+    <value>Ricerca di una regola già esistente con i dati forniti...</value>
+  </data>
+  <data name="PathTooLongExceptionText" xml:space="preserve">
+    <value>Il percorso del file supera la massima lunghezza definita dal sistema.</value>
+  </data>
+  <data name="PortMappingAddress" xml:space="preserve">
+    <value>Indirizzo IP dispositivo: </value>
+  </data>
+  <data name="PortMappingDescription" xml:space="preserve">
+    <value>Descrizione: </value>
+  </data>
+  <data name="PortMappingExternalPort" xml:space="preserve">
+    <value>Porta esterna: </value>
+  </data>
+  <data name="PortMappingInternalPort" xml:space="preserve">
+    <value>Porta interna: </value>
+  </data>
+  <data name="PortMappingProtocol" xml:space="preserve">
+    <value>Protocollo: </value>
+  </data>
+  <data name="PortMappingsListing" xml:space="preserve">
+    <value>Queste sono le regole di port mapping attualmente impostate:</value>
+  </data>
+  <data name="PortMappingsListingWarning" xml:space="preserve">
+    <value>NB: Vengono elencate soltanto le regole create tramite UPnP, le regole impostate manualmente non sono considerate.</value>
+  </data>
+  <data name="PortMappingValidFor" xml:space="preserve">
+    <value>Valida per </value>
+  </data>
+  <data name="RuleSetRecovery" xml:space="preserve">
+    <value>Recupero regole attualmente impostate...</value>
+  </data>
+  <data name="ScriptFailed" xml:space="preserve">
+    <value>Una o più operazioni nello script sono fallite.</value>
+  </data>
+  <data name="ScriptingDisabledWarning" xml:space="preserve">
+    <value>L'elaborazione degli script è disattivata, premere un tasto per chiudere l'applicazione.</value>
+  </data>
+  <data name="ScriptingSettingDisabled" xml:space="preserve">
+    <value>Scripting disabilitato.</value>
+  </data>
+  <data name="ScriptingSettingEnabled" xml:space="preserve">
+    <value>Scripting abilitato.</value>
+  </data>
+  <data name="ScriptRunning" xml:space="preserve">
+    <value>Esecuzione script...</value>
+  </data>
+  <data name="ScriptSucceded" xml:space="preserve">
+    <value>Script completato senza errori.</value>
+  </data>
+  <data name="SelectDevice" xml:space="preserve">
+    <value>Selezionare il dispositivo su cui effettuare le operazioni: </value>
+  </data>
+  <data name="SettingsEditSelection" xml:space="preserve">
+    <value>Selezionare l'impostazione da modificare (0 per tornare indietro): </value>
+  </data>
+  <data name="SettingsLoaded" xml:space="preserve">
+    <value>Impostazioni caricate.</value>
+  </data>
+  <data name="SettingsLoading" xml:space="preserve">
+    <value>Caricamento impostazioni...</value>
+  </data>
+  <data name="SettingsName1" xml:space="preserve">
+    <value>1) Tempo di rilevamento dispositivi (in secondi): </value>
+  </data>
+  <data name="SettingsName2" xml:space="preserve">
+    <value>2) Scegli il primo dispositivo trovato: </value>
+  </data>
+  <data name="SettingsName3" xml:space="preserve">
+    <value>3) Scripting abilitato: </value>
+  </data>
+  <data name="SettingsNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SettingsYes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="TitleString" xml:space="preserve">
+    <value>Programma gestione mappatura porte NAT</value>
+  </data>
+  <data name="UnauthorizedAccessExceptionDetailedText" xml:space="preserve">
+    <value>Accesso negato: </value>
+  </data>
+  <data name="UserSelection" xml:space="preserve">
+    <value>Selezione: </value>
+  </data>
+</root>

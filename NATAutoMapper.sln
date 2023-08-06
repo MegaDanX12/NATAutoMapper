@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATAutoMapper", "NATAutoMapper\NATAutoMapper.csproj", "{55632051-2D79-4108-A9E8-275445C7C0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatAutoMapperGUI", "NatAutoMapperGUI\NatAutoMapperGUI.csproj", "{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiApp", "GuiApp\GuiApp.csproj", "{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.All|Any CPU.Build.0 = Release|Any CPU
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55632051-2D79-4108-A9E8-275445C7C0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.All|Any CPU.Build.0 = Release|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D35040B-D0AF-4FB0-80F2-FB203C75DB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.All|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.All|Any CPU.Build.0 = Debug|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD8ECAF-F0CB-4368-9970-55B7631FF2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA7D0663-BA5F-4A0A-A339-3D20B3AE87A7}
+	EndGlobalSection
+EndGlobal
